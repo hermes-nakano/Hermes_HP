@@ -1,0 +1,35 @@
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery(".secret_cell2 > a").click(function(){
+			fileName = jQuery(this).attr("value");
+			fileUrl = jQuery(this).attr("href").split("/");
+			fileUrl = fileUrl[fileUrl.length-1];
+
+			jQuery.ajax({
+				type: "GET",
+				url: "send.php",
+				data: {
+						fileName: fileName,
+						fileUrl: fileUrl
+					  }
+			}).done(function(){});
+		});
+	});
+</script>
+<table id="secret_table" cellspacing="0" cellpadding="0">
+	<!-- コンテンツタイトル枠 -->
+	<tr>
+		<td colspan=4 class="m_bar" style="width:540px;">採用活動スケジュール</td>
+	</tr>
+
+	<!-- 縦余白 -->
+	<tr>
+		<td colspan=4>
+			<img src="../img/common/h_whitespace.gif" name="h_white_space" alt=""/>
+		</td>
+	</tr>
+
+</table>
+
+<!-- googleカレンダー表示 -->
+        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=kvulstr5fs8pqmes7kchasr3bo%40group.calendar.google.com&amp;color=%23711616&amp;src=ja.japanese%23holiday%40group.v.calendar.google.com&amp;color=%23125A12&amp;ctz=Asia%2FTokyo" style="border-width:0" width="550" height="600" frameborder="0" scrolling="no"></iframe>

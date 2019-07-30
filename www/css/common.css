@@ -1,0 +1,118 @@
+/* 各ページで共通して使用するCSS */
+
+/* <body>tag */
+body {color:#333333; margin: 0px;padding: 0px;font-family: 'ＭＳ Ｐゴシック';font-size: 14px;background: url(../img/common/header_bg.gif) top repeat-x;}
+
+/* <a>tag */
+a{outline:none;}
+a:link {color: #333333;text-decoration: none;}
+a:visited {color: #333333;text-decoration: none;}
+a:hover {color: #4169e1;text-decoration: underline;}
+a:active {color: #4169e1;text-decoration: underline;}
+
+/* <img>tag */
+img {border:none;vertical-align: bottom;}
+
+/* <ul>tag */
+ul {list-style-type: none;}
+
+/* container */
+#container {margin-left:auto;margin-right:auto;width: 750px;}
+
+/* header */
+#header {height: 90px;}
+.h_logo {width: 310px;text-align: left;vertical-align: top;}
+
+.h_sitemap {width: 109px;text-align: right;vertical-align: top; padding-top:5px;}
+.h_link_font {font-size:13px; font-weight:bold; color:#4068cd; padding-left:6px;}
+
+/* navi */
+#navi{height: 40px;text-align: center;vertical-align: bottom;}
+.navi_c .navi_s .navi_r {width: 250px;text-align: left;vertical-align: bottom;}
+
+/* contents */
+#contents {height: 200px;}
+
+/* u_contents */
+#u_contents {width: 750px;height: 230px;}
+#u_contents .u_navi {text-align: left;vertical-align: top;float: left;width: 250px;color: #333333;}
+.u_navi_title {font-size: 16px;font-weight: bold;width: 250px;height: 40px;}
+.u_navi_menu {width: 250px;height: 30px;text-align: left;vertical-align: top;}
+.hr-dot{border:none;border-top:dotted 1px;color:#696969;}
+.tbl-topic{width:100%;}
+
+.nav_menu{
+border-bottom: 1px solid #CCC;
+border-left: 1px solid #CCC;
+border-right: 1px solid #CCC;
+width: 198px;
+height: 20px;
+padding-top: 10px;
+background-color: #FFF;
+}
+
+.nav_menu:hover{
+	background-color: #F8F8FF;
+}
+
+.nav_menu > a{
+	display: block;
+}
+
+.nav_menu > a:hover{
+	text-decoration:none;
+	color: black;
+}
+
+/* topic_path */
+#topic_path {width: 750px;height: 20px;text-align: right;vertical-align: middle;font-size: 14px;}
+#topic_path img{vertical-align: middle;}
+/* m_contents */
+#m_contents {border-collapse: collapse; height: 600px;}
+#m_contents .m_side {width: 200px;text-align: left;vertical-align: top;border-collapse: collapse;}
+#m_contents .m_space {width: 10px;border-collapse: collapse;}
+#m_contents .m_main {width:540px; text-align:left; vertical-align:top; border-collapse:collapse; padding-left:10px; padding-bottom:15px;}
+#m_contents .m_bar{background-image:url(../img/common/m_bar.gif); color:white; background-color:blue;height:30px;line-height:30px;text-indent:1em}
+#m_contents .s_bar{background-image:url(../img/common/s_bar.gif); color:white; background-color:blue;height:30px;line-height:30px;text-indent:5px}
+
+/* sidemenu */
+#sidemenu {width:200px;text-align: left;vertical-align: top;border-collapse: collapse;margin-top:0px;}
+#sidemenu li{height:30px;line-height:30px;}
+#sidemenu_header{border:0px;}
+#sidemenu .contents{border:1px solid silver;text-indent:1em;font-family:"ＭＳ ゴシック";}
+#sidemenu .strong{color:red;font-weight:bold;}
+
+
+/* footer */
+#footer {height: 95px;font-size: 12px;background: url(../img/common/footer_bg.gif) bottom repeat-x;}
+#footer ul {list-style:none;}
+#footer li {float:left;}
+#footer table {margin-left:auto;margin-right:auto;width:754px;}
+#footer .top_path {width: 750px;height: 40px;text-align: right;vertical-align: top;font-size: 14px;}
+#footer .f_menu {text-align: center;vertical-align: bottom;height: 30px;font-size: 12px}		/* font-sizeはpemp向け暫定値 */
+#footer .f_copy {text-align: center;vertical-align: middle;height: 35px;font-size: 12px}		/* font-sizeはpemp向け暫定値 */
+
+/* etc class */
+.border {height: 10px;background: url(../img/border.jpg) top repeat-x;}
+.navi-text{color: #333333;}
+
+.file-right-arrow-cursor {padding-top:3px; padding-right:5px;}
+
+.p_mark{position:relative; top:95px; left:930px; width:63px; height:63px;}
+
+.a_blue_link:link{
+	color: #3366FF;
+	text-decoration: underline;
+}
+
+.a_blue_link:visited {
+	color: #3366FF;
+}
+
+#recruit_table a:hover {
+	color: #ff8000;
+}
+
+#recruit_table a:active {
+	color: #ff8000;
+}

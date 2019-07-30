@@ -1,0 +1,292 @@
+html, body{
+	width : 100%;
+	height : 100%;
+	font-size : 14px;
+}
+
+div#base{
+	width : 60em;
+	text-align : left;
+}
+
+div#header, div#footer{
+	text-align : center;
+	width : 59em;
+}
+
+div#header h1{
+	color : #000099 ;
+}
+
+div.header_links{
+	font-size : 90%;
+	margin : 3px;
+	margin-bottom : 2em;
+}
+
+div#footer_copyright{
+	font-size : 95%;
+	color : #000000;
+	bottom: 10px;
+	text-align : center;
+}
+
+
+
+/***********************
+	a:***
+	リンク色関連
+************************/
+a:link{
+	color : #6B8E23;
+}
+a:visited{
+	color : #A52A2A;
+}
+a:hover{
+	color : #6495ED;
+}
+
+
+/************************全頁に適用ここまで************************/
+
+/***********************
+	toppage, titlelist
+	トップページ関連
+************************/
+table.titlelist{
+	table-layout : fixed;
+	width : 95%;
+	background-color: #5555AA;
+	border-collapse: collapse;
+	margin : 15px;
+}
+
+.titlelist, .titlelist_no, .titlelist_title, .titlelist_update, .titlelist_rescnt{
+	border : thin #FFFFFF solid;
+}
+
+th.titlelist, th.titlelist_no, th.titlelist_title, th.titlelist_update, th.titlelist_rescnt{
+	text-align : left;
+	font-size : 80%;
+	white-space: nowrap;
+	background-color : #0000FF;
+	color : #FFFFFF;
+}
+
+td.titlelist, td.titlelist_no, td.titlelist_title, td.titlelist_update, td.titlelist_rescnt{
+	background-color : #F5F5F5;
+}
+
+th.titlelist_no{
+	width : 4%;
+	white-space: nowrap;
+}
+th.titlelist_rescnt{
+	width : 7%;
+}
+th.titlelist_title{
+	width : 50%;
+}
+td.titlelist_no, td.titlelist_rescnt{
+	text-align : center;
+}
+td.titlelist_update{
+	font-size : 80%;
+	white-space: nowrap;
+}
+
+.titlelist_page{
+	font-weight: bolder ;
+	text-align : center;
+}
+
+
+/***********************
+	postform, attention
+	新規・レス共通投稿フォーム関連
+************************/
+div.new_form_base{
+	margin-top : 3px;
+	margin-right:auto;
+	margin-left:auto;
+	width : 100%;
+	text-align : center;
+}
+
+div.form_caption{
+	font-size : 150%;
+	font-weight: bolder ;
+	text-decoration: underline;
+	text-align : center;
+	margin : 1em;
+}
+
+table.post_form_base{
+	margin-right:auto;
+	margin-left:auto;
+	width : 38em;
+}
+
+table.postform{
+	width :40em;
+	border: 2px;
+}
+
+td.postform{
+	text-align : right;
+	background-color : #F5F5F5;
+}
+
+textarea.postform{
+	width : 38em;
+	height : 25em;
+	font-size : 1em;
+	font-family : 'courier new', 'osaka-等幅',monoscape ;
+}
+
+span.attention{
+	color : #FF0000;
+	font-weight : bolder;
+	font-size : 90%;
+}
+
+input.input_text{
+	width : 20em;
+}
+
+input.input_pass{
+	width : 8em;
+}
+
+input.input_button{
+	width : 7em;
+	height : 2em;
+}
+
+
+/***********************
+	posts oya,ko
+	レス画面・記事表示関連
+************************/
+div.res_form_page{
+	margin-top : 3px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align : center;
+	width :100%;
+}
+
+div.res_form_base{
+	margin-left:auto;
+	margin-right:auto;
+	width : 45em;
+}
+
+div.posts_base{
+	margin-left:auto;
+	margin-right:auto;
+	width : 44em;
+	text-align:right;
+}
+
+hr.posts_base{
+	width : 43em;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.posts_oya, table.posts_ko{
+	table-layout:fixed;
+	border :1px #000000 solid;
+	border-collapse:separate;
+
+}
+table.posts_oya{
+	margin-left:auto;
+	margin-right:0;
+	width : 38em;
+}
+table.posts_ko{
+	margin-left:auto;
+	margin-right:0;
+	width : 37.5em;
+}
+
+td.posts_oya,td.posts_ko{
+	font-size : 90%;
+	text-align : left;
+}
+
+td.posts_oya_no, td.posts_ko_no{
+	width : 10%;
+	font-size : 90%;
+	text-align: center;
+}
+td.posts_oya, td.posts_oya_no{
+	background-color : #FFA500;
+}
+td.posts_ko, td.posts_ko_no{
+	background-color : #B0E0E6;
+}
+
+td.posts_oya_mes, td.posts_ko_mes{
+	font-size : 1em;
+	font-family : 'courier new', 'osaka-等幅',monoscape ;
+}
+
+td.posts_footer{
+	font-size : 70%;
+	text-align:right;
+}
+
+/***********************
+	del
+	削除画面
+************************/
+div.del_page_base{
+	margin-top:10px;
+	width : 100%;
+	text-align : center;
+}
+
+table.del{
+	margin-right:auto;
+	margin-left:auto;
+}
+
+td.del{
+	text-align:left;
+	background-color : #F5F5F5;
+}
+form.del{
+	text-align:right;
+	background-color:#F5F5F5;
+}
+input.del{
+	width : 8em;
+}
+
+/***********************
+	manual
+	利用方法
+************************/
+div.manual_page{
+	margin-top:10px;
+	width : 100%;
+	text-align : center;
+}
+table.manual{
+	margin-right:auto;
+	margin-left:auto;
+}
+p.manual{
+	font-size: 150%;
+	font-weight : bolder;
+	background-color : #F5F5F5;
+}
+div.manual{
+	font-weight : bolder;
+	background-color : #F5F5F5;
+}

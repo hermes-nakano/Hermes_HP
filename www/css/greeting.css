@@ -1,0 +1,35 @@
+/* 画像切り替え用 */
+#image_fade a{
+    position:absolute;
+}
+
+/* 縦書きテキストエリア */
+#vertical-text-area{
+	position: relative;
+	width:750px;
+	top:200px;
+	background-image:url(../greeting/img/syotyuu4.jpg)no-repeat;
+	/* 縦書きテキストエリア配置 */
+#vertical-text-align{
+	position: relative;
+	left: 100px;
+	width: 500px;
+	height: 350px;
+	
+}
+}
+
+/* 縦書きテキストフォント */
+.nehan-page{ font-family:IPA明朝, ＭＳ 明朝, Hiragino Mincho Pro, monospace; }
+.nehan-page-wrap{ border-bottom:1px solid #888; width: 700px; height: 320px; padding:2.5em 0; }
+.nehan-page-wrap-header{ border-top:1px solid #888; }
+
+/* 縦書きテキストエリア配置 */
+#vertical-text-align{
+	position: relative;
+	left: 150px;
+	width: 500px;
+	height: 350px;
+	top: 30px;
+	
+}

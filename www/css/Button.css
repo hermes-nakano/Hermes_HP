@@ -1,0 +1,78 @@
+.pdfBox{
+	display:flex;
+	height:120px;
+	box-sizing:border-box;
+}
+
+.back{
+	margin:10px;
+	width:100px;
+	height:120px;
+	border-radius:50%;
+	text-align:center;
+	display: -webkit-flex;
+ 	display: flex;
+ 	-webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+ 	align-items: center; /* 縦方向中央揃え */
+ 	-webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+ 	justify-content: center; /* 横方向中央揃え */
+}
+.blue{
+	background-color:aqua;
+	}
+.yellow{
+	background-color:yellow;
+	}
+.green{
+	background-color:greenyellow;
+	}
+.grey{
+	background-color:grey;
+	}
+.orange{
+	background-color:orange;
+	}
+/* エントリーボタン作成用 */
+.entryButton{
+	background-image:url(../img/common/s_bar.gif);
+	background-repeat:none;
+	width:200px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	line-height:normal;
+	margin:10px 0;
+	}
+.entryButton:hover{
+	opacity:0.7;
+	}
+	
+.decorationNone{
+	color:white;
+	}
+.decorationNone:hover{
+	text-decoration:none;
+	color:white;
+	}
+/* ダウンロードボタン作成用 */
+.downroadButton{
+	background-image:url(../img/common/s_bar.gif);
+	background-repeat:none;
+	width:200px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	line-height:normal;
+	margin:10px 0;
+	}
+.downroadButton:hover{
+	opacity:0.7;
+	}
+	
+.link-pamph-pdf{
+	color:white;
+	}
+.link-pamph-pdf:hover{
+	text-decoration:none;
+	color:white;
+	}

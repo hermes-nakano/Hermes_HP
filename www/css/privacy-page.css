@@ -1,0 +1,102 @@
+/* 個人情報 */
+h3{color:#191970; text-align: left;font-size:16px;}
+p{text-align: left;}
+#privacy p{text-align: right;}
+
+#privacy a:link { color: #191970; text-decoration: underline;}
+#privacy a:visited { color: #191970; text-decoration: underline;}
+#privacy a:hover { color: #191970; text-decoration: underline;}
+#privacy a:active { color: #191970; text-decoration: underline;}
+
+h2.title{
+	text-align:center;
+	margin:30px;
+}
+
+div.head{
+	font-size:120%;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+#priv_body_base{
+	line-height:140%;
+}
+
+#priv_body{
+	margin-top:30px;
+	margin-bottom:20px;
+	text-align:left;
+}
+
+#priv_body p.con,p.con2{
+	font-size:110%;
+}
+
+#priv_body p.con{
+    margin-top:10px;
+}
+
+#priv_body p.con2{
+    margin-top:10px;
+	font-weight:bold;
+}
+
+#priv_body p.sen{
+	padding-left:1em;
+}
+
+#priv_body div.sen{
+    margin-top:10px;
+	padding-left:1em;
+}
+
+#priv_body div.sen_c{
+	padding-left:1em;
+}
+
+#priv_body div.sen_c_c{
+	padding-left:4em;
+}
+
+.address{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.address div{
+	text-align:left;
+	margin-left:20px;
+	padding-left:auto:
+	padding-right:auto;
+	max-width:400px;
+	text-indent:0px;
+}
+
+.address span.underline{
+	text-decoration: underline;
+}
+
+#priv_footer{
+	width:250px;
+	margin-left:auto;
+	margin-right:0px;
+	margin-bottom:15px;
+	text-align:left;
+}
+
+#priv_footer div{
+	text-align:left;
+}
+
+#menu dt{
+    display:block;
+    line-height:50px;
+    cursor:pointer;
+}
+
+#menu dd{
+    background:#f2f2f2;
+    display:none;
+}
+

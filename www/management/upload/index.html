@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+
+   <body>
+	<font size="3" color="#FF0000">注意：アップロード時、ファイル名の設定及びタイトルの入力は必須です。</font>
+	<div align="left"><br/>
+	   <form ACTION="./php/upload_done.php" METHOD="post" ENCTYPE="multipart/form-data"><br/>
+	   	ファイル： <input type="file" name="userfile" id="FILE" size=55 value= ""><br/><br/>
+	   	タイトル： <input type="text" name="targetText" id="TITLE" size=55 value= ""><br/><br/><br/>
+	   	　　　　　　　　　　　　　　　　<input type = "button" value="通達の表示/非表示" onClick= "location.href='./php/test_tsutatsu_edit.php'">　
+
+	   	　<input type="submit" value="通達アップロード"/>
+	   </form>
+	</div>
+  </body>
+</html>

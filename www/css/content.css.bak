@@ -1,0 +1,450 @@
+/*
+ * Breadcrumb navigation PC Only
+ */
+
+div#breadcrumb-wrapper {
+    padding-top: 15px;
+    visibility: hidden;
+}
+
+
+/*
+ * Side-menu start
+ */
+
+aside#side-menu {
+    float: right;
+    margin: 5%;
+    padding: 0;
+    width: 90%;
+    font-size: 0.9rem;
+}
+
+aside#side-menu a {
+    display: inline-block;
+    padding: 10px;
+    width: 100%;
+}
+
+aside#side-menu a:hover {
+    text-decoration: none;
+    background-color: #DEC6A0;
+    color: #5E4620;
+}
+
+aside#side-menu nav {
+    border: solid 1px #5E4620;
+    border-radius: 10px;
+    background-color: #F1EFE7;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.9);
+}
+
+aside#side-menu li:nth-child(odd) {
+    border-bottom: dotted 1px #5E4620;
+    border-top: dotted 1px #5E4620;
+}
+
+aside#side-menu li:first-child,
+aside#side-menu li:first-child > a {
+    border-top: none;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+aside#side-menu li.current,
+aside#side-menu li.current > a {
+    color: #F1EFE7;
+    background-color: #5E4620;
+    border: none;
+}
+
+aside#side-menu li.current > a:hover {
+    background-color: #3E2600;
+    color: #F1EFE7;
+}
+
+aside#side-menu li:last-child,
+aside#side-menu li:last-child > a {
+    border-bottom: none;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+
+/* Menu-item icon */
+
+aside#side-menu li > a:before {
+    content: "\00A0\F105";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+
+aside#side-menu li.current> a:before {
+    content: "\F101";
+    font-family: "FontAwesome";
+    margin-right: 5px;
+}
+
+
+/*
+ * Side-menu Finish
+ */
+
+
+/*
+ * Company Overview Start
+ */
+
+section#contents {
+    line-height: 1.3rem;
+    width: 96%;
+    margin: 0 2%;
+    float: left;
+}
+
+section#contents > h1 {
+    border-left: 10px solid #5E4620;
+    border-bottom: 1px solid #5E4620;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+section#contents > h1 > span {
+    display: block;
+    margin: 5px 0 0 5px;
+    color: #666666;
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+dl.responsive-list {
+    display: block;
+    font-size: 0.8rem;
+}
+
+dl.responsive-list > dt {
+    padding: 4px 10px;
+    float: none;
+    background-color: #CEB690;
+    color: #5E4620;
+}
+
+dl.responsive-list > dt:before {
+    content: "\F0DA";
+    margin-right: 10px;
+}
+
+dl.responsive-list > dd {
+    padding: 4px 10px;
+    font-size: 0.9rem;
+}
+
+table.responsive-list-item-table {
+    width: 100%;
+    min-width: 270px;
+    text-align: left;
+}
+
+table.responsive-list-item-table th {
+    font-weight: normal;
+    width: 10%;
+    min-width: 120px;
+    text-align: left;
+}
+
+table.responsive-list-item-table td {
+    width: 90%;
+    min-width: 150px;
+    vertical-align: middle;
+}
+
+table.responsive-list-item-table td:before {
+    content: "\FF1A\3000";
+}
+
+
+/*
+ * Company Overview Finish
+ */
+
+
+/*
+ * Organization Start
+ */
+
+section#organization img {
+    max-width: 540px;
+    width: 100%;
+}
+
+
+/*
+ * Organization Finish
+ */
+
+
+/*
+ * Common contents Start
+ */
+
+section.responsive-article-wrapper {
+    padding-bottom: 100px;
+}
+
+section#contents h2 {
+    border-bottom: 1px dashed #5E4620;
+    padding: 4px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-size: 1.0rem;
+}
+
+section#contents h2:before {
+    content: "\F105";
+    font-size: 0.8rem;
+    margin: 0 7px;
+    vertical-align: middle;
+}
+
+section#contents h3 {
+    padding: 4px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    font-size: 0.9rem;
+}
+
+section.common-article-parent > p {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+section.common-article-child > p {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+a.link-page:before {
+    content: "\F0DA";
+    margin-right: 10px;
+}
+
+a.link-file-pdf:before {
+    content: "\F1C1";
+    margin-right: 10px;
+}
+
+section.common-article-parent ul,
+section.common-article-parent ul > li {
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+figure#president {
+    font-size: 0.8rem;
+}
+
+div#president-image {
+    width: 70%;
+}
+
+div#president-image > img {
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+div#president-image > figcaption {
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    text-align: center;
+    clear: both;
+}
+
+figure.employee {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.3);
+}
+
+section#contents figure.employee:nth-child(odd) {
+    border: 2px solid #7E6640;
+    background-color: #7E6640;
+    color: #F1EFE7;
+}
+
+section#contents figure.employee:nth-child(even) {
+    border: 2px solid #3E2600;
+    background-color: #3E2600;
+    color: #F1EFE7;
+}
+
+
+/* color-config */
+
+figure.theme-green {
+    border: 2px solid #CCFF66;
+    background-color: #CCFF66;
+    color: #333333;
+}
+
+div.employee-image {
+    width: 30%;
+}
+
+div.employee-image > img {
+    width: 100%;
+    max-width: 185px;
+    float: left;
+    margin-right: 30px;
+}
+
+div.employee-image > figcaption {
+    width: 100%;
+    max-width: 185px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+div.employee-image > figcaption > span {
+    text-align: left;
+}
+
+div.employee-message {
+    font-size: 0.9rem;
+    padding: 5px;
+}
+
+
+/*
+ * Common contents Finish
+ */
+
+@media print,
+screen and (min-width: 768px) {
+    /*
+   * Breadcrumb navigation Start
+   */
+    div#breadcrumb-wrapper {
+        visibility: visible;
+        width: 100%;
+        padding-top: 105px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+        background-color: #333333;
+        box-shadow: 5px 10px 15px -10px rgba(0, 0, 0, 0.8);
+        -webkit-box-shadow: 5px 10px 15px -10px rgba(0, 0, 0, 0.8);
+        -moz-box-shadow: 5px 10px 15px -10px rgba(0, 0, 0, 0.8);
+    }
+    nav#breadcrumb {
+        width: 100%;
+        color: #EEEEEE;
+        padding-bottom: 10px;
+    }
+    nav#breadcrumb > ul {
+        padding-bottom: 15px;
+    }
+    nav#breadcrumb > ul > li {
+        display: inline;
+        float: left;
+    }
+    nav#breadcrumb > ul > li:after {
+        content: "\F0DA";
+        margin: 0 10px;
+    }
+    nav#breadcrumb > ul > li:last-child:after {
+        content: "";
+        margin: 0;
+    }
+    nav#breadcrumb > ul > li > a {
+        color: #F1EFE7;
+    }
+    nav#breadcrumb > ul > li > a:hover {
+        color: #73CFCA;
+    }
+    nav#breadcrumb > ul > li.current {
+        color: #B3FFFA;
+    }
+    /*
+   * Breadcrumb navigation Finish
+   */
+    /*
+   * Side-menu Start
+   */
+    aside#side-menu {
+        width: 20%;
+        float: right;
+    }
+    /*
+   * Side-menu Finish
+   */
+    /*
+   * Corporate overview Start
+   */
+    section#contents {
+        width: 66%;
+        margin: 10px 2% 10px 2%;
+    }
+    dl.responsive-list > dt,
+    dl.responsive-list > dd {
+        padding: 20px;
+    }
+    dl.responsive-list > dt {
+        clear: both;
+        float: left;
+        background-color: transparent;
+        width: 30%;
+    }
+    dl.responsive-list > dt:before {
+        content: "";
+        margin: 0;
+    }
+    dl.responsive-list > dd {
+        padding-left: 30%;
+        border-bottom: 1px dotted #5E4620;
+    }
+    dl.responsive-list > dd:last-child {
+        border: none;
+    }
+    /*
+   * Corporate overview Finish
+   */
+    /*
+   * welfare Start
+   */
+    dl.list > dt,
+    dl.list > dd {
+        font-size: 0.8rem;
+    }
+    dl.list > dt {
+        clear: both;
+        float: left;
+        background-color: transparent;
+        width: 70%;
+    }
+    dl.list > dd {
+        padding-left: 70%;
+        text-align: right;
+    }
+
+    /*
+   * welfare Finish
+   */
+}

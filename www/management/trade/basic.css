@@ -1,0 +1,63 @@
+body {font-family: MS Mincho; background-color:#FFFFFF; color: #000000;}
+A { text-decoration: none; } 
+.style7 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; color: #FFFFFF; font-weight: bold; }
+.style14 {font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 13px;color:#CCCCCC;}
+.style15 {FONT-SIZE: 16px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif}
+.style21 {font-size: 10px; color: #FFFFFF; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.style30 {font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 16px; color:#FF0000; font-size:13px}
+.style37 {FONT-WEIGHT: bold; FONT-SIZE: 10px}
+.style38 {color: #336699}
+.style42 {font-size: medium}
+.style43 {color: #FFFFFF}
+.style48 {color: #0033FF; font-weight: bold;}
+.style49 {color: #0000FF;font-weight: bold;}
+.style51 {font-size: medium;font-weight: bold;}
+.style56 {color: #663333; }
+.style65 {color: #FF0000}
+.style68 {color: #0033FF; font-weight: bold; font-size: medium; }
+.style69 {color: #FF0000; font-size: 15px; }
+.style70 {font-size: small}
+.style71 {font-size: 12px}
+.style72 {color: #FF0000; font-weight: bold; font-size: 12px; }
+.style74 {font-weight: bold}
+.style75 {color: #006666}
+.style77 {font-size: 18px; font-weight: bold; font-style: italic; color: #006633; }
+.style82 {font-size: 18px; font-weight: bold;color: #006666;}
+.style84 {font-size: large;	font-weight: bold;	color: #990000;}
+.style6571 {color: #FF0000; font-size: 12px; font-family: MS Mincho}
+.styleFont002 {font-family: MS Mincho; font-size: 12px; color: #FF0000; font-weight: bold;}
+.styleFont003 {color: #808000; FONT-WEIGHT: bold}
+.styleFont004 {FONT-SIZE: 10.5pt; color: #525252; font-weight: bold;}
+.styleFont005 {FONT-FAMILY: Verdana; color: #525252; font-size: 12px;}
+.styleFont006 {color: #336699; font-size: 12px; font-weight: bold;}
+.styleFont007 {color: #525252; font-size: 12px;}
+.styleFont008 {color: #525252; font-size: 14px; font-family: Verdana;}
+.styleFont009 {color: #525252; font-size: 12px; font-family: Verdana;}
+.styleFont010 {color: #008080; font-size: 12px; font-family: Verdana;}
+.styleFont011 {FONT-SIZE: 10.0pt; color: #336699; font-family: MS Mincho;}
+.styleFont012 {color: #808000; font-size:16px}
+.styleFont013 {color: #808000; font-size: 10.0pt;}
+.styleFont014 {color: #008080; font-size: 12px;}
+.styleFont015 {color: #808000; font-size: 12px;}
+.styleFont016 {color: #525252; font-size: 12px; font-weight: bold;}
+.styleFont017 {color: #525252; font-size: 16px; font-weight: bold;}
+.styleFont018 {color: #336699; font-size: 12px;}
+.styleFont019 {color: #336699; font-size: 16px; font-weight: bold;}
+.styleFont020 {color: #FF0000; font-size: 18px; font-weight: bold; padding-left: 10px;}
+.styleFont021 {color: #003333; font-size: 14px; font-weight: bold; padding-left: 10px;}
+.styleFont022 {font-size: 18px; padding-left: 30px;}
+.styleFont022 A {text-decoration: underline;}
+.styleFont023 {color: #525252; font-size: 14px; font-family: Verdana; padding-left: 70px;}
+.styleFont024 {font-size: 14px; font-family: Verdana; padding-left: 20px;}
+.styleFont024 A {text-decoration: underline;}
+
+.styleFont025 {color: #525252; font-size: 14px; font-family: Verdana; padding-left: 20px;}
+.styleFont026 {font-family: 'HGê≥û≤èëëÃ-PRO',cursive }
+.test5  { margin-left:20pt; list-style-position: outside}
+
+# English
+.styleEN001 {mso-bidi-font-family: Times New Roman;}
+.styleEN002 {color: #CC0066; font-size: 16px;}
+.styleEN003 {color: #0000FF; font-size: 20px;}
+.styleEN004 {color: #006666; font-size: 16px;}
+.styleEN005 {mso-bidi-font-family: Times New Roman; font-size: 12px;}

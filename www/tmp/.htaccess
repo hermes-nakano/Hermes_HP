@@ -1,0 +1,6 @@
+AuthUserFile /home/hermessystems/www/management/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Shainn"
+AuthType Basic
+require valid-user
+AddHandler cgi-script htpasswd

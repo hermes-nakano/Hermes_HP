@@ -1,0 +1,400 @@
+<!--
+/* ページ全体の設定 */
+body{
+  background-color:#FFFFFF;
+  margin:00px 0px 0px 0px;
+
+}
+
+body, th, td{
+  font-size:12px;
+  color:#555555;
+}
+
+.button_img{
+  cursor : pointer;
+}
+F
+.link_str{
+  cursor         : pointer;
+  color          : #0033ff;
+  text-decoration: underline;
+}
+
+.title1{
+  font-size:14px;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+/* 入力一覧テーブルデザイン */
+table.contents {
+	width: 500px;
+	align: left;
+	border-collapse: separate;
+	border-spacing: 0px 15px;
+	font-size: 12px;
+}
+
+table.contents th,
+table.contents td {
+	padding: 10px;
+}
+
+table.contents th {
+	background: #295890;
+	vertical-align: middle;
+	text-align: left;
+	width: 100px;
+	overflow: visible;
+	position: relative;
+	color: #fff;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+table.contents th:after {
+	left: 100%;
+	top:50%;
+	border: solid transparent;
+	content:" ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, );
+	border-left-color: #295890;
+	border-width: 10px
+	margin-top: -10px;
+}
+
+/* firefox */
+-moz-document url-prefix() {
+	table.company th::after {
+		float: right;
+		padding: 0;
+		left: 30px;
+        top: 10px;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: relative;
+        pointer-events: none;
+        border: 10px solid transparent;
+        border-left: #295890 10px solid;
+        margin-top: -10px;
+    }
+}
+
+table.contents td {
+    background: #f8f8f8;
+    width: 360px;
+    padding-left: 20px;
+}
+
+/* 例のテーブルデザイン */
+table.example {
+	border-collapse: separate;
+	border-spacing: 1px;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+}
+table.example th {
+	width: 150px;
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+table.example td {
+	width: 350px;
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+/* 見出しのデザイン */
+.Heading {
+    position: relative;
+    color: #ffffff ;
+    background: #0787f3;
+    font-size: 16pt ;
+    line-height: 1;
+    margin: 20px -10px 20px -10px;
+    padding: 10px 5px 10px 20px;
+    box-shadow:1px 3px 7px 0px  #666666 ;
+    border-top:3px solid #010c42;
+}
+.Heading:after, Heading:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-top: 5px solid #333;
+}
+.Heading:after {
+    left: 0;
+    border-right: 5px solid #333;
+}
+.Heading:before {
+    right: 0;
+    border-left: 5px solid #333;
+}
+
+
+/*　テキストエリア　*/
+textarea {
+    min-height: 80px;
+    max-width:  315px;
+    max-height: 200px;
+}
+
+/* テーブル共通 */
+th.space1_block,td.space1_block{
+  height             : 5px;
+}
+th.space2_block,td.space2_block{
+  height             : 20px;
+}
+th.space3_block,td.space3_block{
+  height             : 30px;
+}
+
+/* フレームテーブル */
+table.outer_frame_table{
+
+
+  background-color :#FFFFFF;
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :1500px;
+  height           :100%;
+  margin           :0px 0px 0px 0px;
+}
+
+table.outer_frame_table th.left_block,
+table.outer_frame_table td.left_block{
+  background-image :url("../images/side_bar4.gif");
+  background-repeat:repeat-y;
+  padding-top      :0px;
+  padding-right    :0px;
+  padding-bottom   :0px;
+  padding-left     :15px;
+  width            :200px;
+  text-align       :left;
+  vertical-align   :top;
+}
+
+table.outer_frame_table th.center_block,
+table.outer_frame_table td.center_block{
+  padding-top      :10px;
+  padding-right    :10px;
+  padding-bottom   :10px;
+  padding-left     :10px;
+  width            :600px;
+  text-align       :left;
+  vertical-align   :top;
+}
+
+table.outer_frame_table th.right_block,
+table.outer_frame_table td.right_block{
+  background-image :url("../images/back01.jpg");
+  background-repeat:repeat-y;
+  width            :10px;
+}
+
+/* サイドテーブル */
+table.side_table{
+/*
+  border-style     :solid;
+  border-color     :#000000;
+  border-width     :2px;
+*/
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  text-align       :left;
+  vertical-align   :top;
+  width            :500;
+  margin           :10px 0px 50px 0px;
+}
+
+table.side_table th,
+table.side_table td{
+/*
+  border-style     :solid;
+  border-color     :#000000;
+  border-width     :2px;
+*/
+  padding          :0px 0px 2px 0px;
+}
+
+/* ヘッダテーブル */
+table.header_table{
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :510px;
+  margin           :0px 0px 0px 0px;
+}
+
+table.header_table th.header_banner1_block,
+table.header_table td.header_banner1_block{
+  background-image   :url("../images/header-bar01.gif");
+  background-position:right top;
+  background-repeat  :no-repeat;
+  height             : 80px;
+}
+
+table.header_table th.bar_block,
+table.header_table td.bar_block{
+  background-image   :url("../images/bar01.gif");
+  background-position:right;
+  background-repeat  :repeat-y;
+  height             : 7px;
+}
+
+th.space1_block,td.space1_block{
+  height             : 5px;
+}
+
+/* メインテーブル */
+table.main_table{
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :510px;
+  margin           :0px 0px 0px 0px;
+}
+
+table.main_table th,
+table.main_table td{
+  text-align       :left;
+  vertical-align   :top;
+  padding-top      :5px;
+  padding-right    :3px;
+  padding-bottom   :3px;
+  padding-left     :3px;
+}
+
+table.main_table th.bar_block,
+table.main_table td.bar_block{
+  background-image   :url("../images/bar11.gif");
+  background-position:left center;
+  background-repeat  :repeat-x;
+  height             : 7px;
+}
+
+table.main_table th.title1_block,
+table.main_table td.title1_block{
+  background-color :#ffffff;
+  
+  
+  background-image   :url("../images/title_bar.gif");
+  background-position:left center;
+  background-repeat  :no-repeat;
+  
+  font-size:14px;
+  font-weight:bold;
+  color:#ffffff;
+  
+  text-align       :left;
+  vertical-align   :middle;
+  
+  padding-top    :0px;
+  padding-right  :0px;
+  padding-bottom :0px;
+  padding-left   :10px;
+
+  height             : 30px;
+  
+}
+
+table.main_table th.image1_block,
+table.main_table td.image1_block{
+  text-align       :center;
+  vertical-align   :top;
+  padding-top      :0px;
+  padding-right    :0px;
+  padding-bottom   :0px;
+  padding-left     :0px;
+}
+
+table.main_table th.layout1_block,
+table.main_table td.layout1_block{
+  text-align       :left;
+  vertical-align   :top;
+  padding-top      :0px;
+  padding-right    :0px;
+  padding-bottom   :0px;
+  padding-left     :0px;
+}
+
+/* フッタテーブル */
+table.footer_table{
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :510;
+  height           :100%;
+  margin           :0px 0px 0px 0px;
+}
+
+table.footer_table th,
+table.footer_table td{
+  text-align       :center;
+  vertical-align   :bottom;
+}
+
+
+div.noscript_alert{
+  background-color :#dfffff;
+  width            :510px;
+  height           :80px;
+  text-align       :left;
+  vertical-align   :bottom;
+  padding-top      :25px;
+  padding-right    :0px;
+  padding-bottom   :3px;
+  padding-left     :60px;
+  margin-top       :10px;
+  margin-bottom    :30px;
+}
+
+
+/* ボタンのデザイン */
+.button {
+	background-color: #1500ff;
+	color: #fff;
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 22px;
+	outline: none;
+}
+.button:hover {
+	background-color: #59b1eb;
+.button::before,
+.button::after {
+	position: absolute;
+	z-index: -1;
+	display: block;
+	content: '';
+}
+.button,
+.button::before,
+.button::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+-->

@@ -1,0 +1,281 @@
+/* 会社情報 */
+.s-navi-text{
+	color: #333333;
+	font-size: 13px;
+	line-height: 15pt;
+	letter-spacing: -0.01em;
+}
+
+.s-navi-text img{
+	vertical-align: middle;
+	border-style:none;
+}
+
+.event-text{
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+}
+ul {
+	list-style:none;
+}
+
+li {
+	float:left;
+}
+
+li.recruit_li{
+    float:none;
+}
+li.recruit_li_h{
+    float:none;
+    font-weight:bold;
+}
+img {
+	vertical-align: top;
+	border-style:none;
+}
+
+#recruit_table {
+	width:540px;
+	text-align: left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#recruit_table td.recruit_cell1 {
+	width: 80px;
+	vertical-align: top;
+	text-align:left;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#recruit_table td.recruit_cell2 {
+	width: 80px;
+	vertical-align: top;
+	text-align:left;
+	margin: 2px;
+	border-style: none solid solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#recruit_table td.recruit_cell3 {
+
+	vertical-align: top;
+	text-align:left;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+#recruit_table td.recruit_cell3r {
+	width: 150px;
+	vertical-align: top;
+	text-align:right;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+#recruit_table td.recruit_cell3rr {
+	width: 230px;
+	vertical-align: top;
+	text-align:right;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#recruit_table td.recruit_cell4 {
+	width: 400px;
+	vertical-align: top;
+	text-align:left;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	background-color: #f8f8ff;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+}
+
+#recruit_table td.recruit_cell5 {
+	color: #333333;
+	font-weight: bold;
+	background-color: #e6e6fa;
+	vertical-align: top;
+	margin: 2px;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+}
+
+#recruit_table td.recruit_cell5l {
+	color: #333333;
+	font-weight: bold;
+	background-color: #e6e6fa;
+	vertical-align: top;
+	margin: 2px;
+	border-style: none solid solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+}
+
+#recruit_table td.recruit_cell6 {
+	width: 5px;
+	color: red;
+	vertical-align: top;
+	text-align:left;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	border-style: none solid none none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+}
+
+#recruit_table td.recruit_cell7 {
+	width: 400px;
+	color: #333333;
+	vertical-align: top;
+	text-align:left;
+	margin: 2px;
+	padding-left:10px; 
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#recruit_table td.recruit_cell8 {
+	color: #333333;
+	font-weight: bold;
+	background-color: #e6e6fa;
+	vertical-align: top;
+	margin: 2px;
+	padding-left: 10px; 
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+
+}
+
+#recruit_table td.recruit_cell9 {
+	color: #333333;
+	background: url(../img/recruit_bar.jpg) top;
+	font-weight: bold;
+	vertical-align: top;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+}
+
+#recruit_table td.recruit_cell10 {
+	color: #333333;
+	weight:100px;
+	font-weight: bold;
+	vertical-align: top;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+}
+
+#recruit_table td.recruit_cell11 {
+	color: #333333;
+	weight:250px;
+	font-weight: bold;
+	vertical-align: top;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+}
+
+#recruit_table td.recruit_cell12 {
+	color: #333333;
+	weight:520px;
+	font-weight: bold;
+	vertical-align: top;
+	margin: 2px;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	text-align:left;
+}
+
+#recruit_table img.recruit_img_left {
+	float : left;
+}
+
+#recruit_table img.recruit_img_right {
+	float : right;
+}
+
+#recruit_table a{
+	font-weight: bold;
+	font-size: 16px;
+	color: #4169e1;
+}
+
+#recruit_table a.normal_link{
+	text-decoration: underline;
+}
+
+#recruit_table a:hover {
+	color: #ff8000;
+	text-decoration: underline;
+}
+
+#recruit_table a:active {
+	color: #ff8000;
+	text-decoration: underline;
+}
+/* 画像切り替え用 */
+#image_fade a{
+    position:absolute;
+}
+
+/* 縦書きテキストエリア */
+#vertical-text-area{
+	position: absolute;
+	top: 300px;
+	width:750px;
+	height:350px;
+	background-image:url(../greeting/img/syotyuu4.jpg);
+}
+
+/* 縦書きテキストエリア配置 */
+#vertical-text-align{
+	position: relative;
+	left: 150px;
+	width: 500px;
+	height: 350px;
+}
+
+/* 縦書きテキストフォント */
+.nehan-page{ font-family:IPA明朝, ＭＳ 明朝, Hiragino Mincho Pro, monospace; }
+.nehan-page-wrap{ border-bottom:1px solid #888; width: 700px; height: 320px; padding:2.5em 0; }
+.nehan-page-wrap-header{ border-top:1px solid #888; }
+
+.require{color:red;}
+.text-right{text-align:right;}
+.entrty-tbl{font-size:14px;}
+.w400{width:400px;}
+.w315{width:315px;}
+.h200{height:200px;}
+
+.th-photo {font-size: .85em;font-weight:bold;height: 150px;}
+.kind-value {display:none;}

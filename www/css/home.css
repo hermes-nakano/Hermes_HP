@@ -1,0 +1,51 @@
+/* サイトマップ */
+#s_contents1 {width: 750px;height: 300px;}
+#s_contents1 .s_navi {text-align: left;vertical-align: top;float: left;width: 250px;height: 280px;}
+#s_contents1 .s_title{width: 250px;text-align: left;vertical-align: middle;}
+#s_contents1 .s_menu{width: 250px;text-align: left;vertical-align: top;}
+#s_contents1 .s_space{width: 100px;text-align: left;vertical-align: top;float: left;}
+#s_contents1 .s_space50{width: 50px;text-align: left;vertical-align: top;float: left;}
+
+#s_contents2 {width: 750px;height: 300px;}
+#s_contents2 .s_navi {text-align: left;vertical-align: top;float: left;width: 250px;height: 280px;}
+#s_contents2 .s_title{width: 250px;text-align: left;vertical-align: middle;}
+#s_contents2 .s_menu{width: 250px;text-align: left;vertical-align: top;}
+#s_contents2 .s_space{width: 100px;text-align: left;vertical-align: top;float: left;}
+#s_contents2 .s_space50{width: 50px;text-align: left;vertical-align: top;float: left;}
+
+/* トピック */
+#topic {width: 750px; padding-top:20px;}
+#topic .contents {width: 750px;font-size: 13px;text-align: left;vertical-align: top;position: relative;top: 10px;left: 5px;}
+#topic p{margin:3px;}
+
+table.thank{
+	margin-left:40px;
+}
+
+.thank td{
+	padding-left:2px;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:8px;
+	color:#3366FF;
+	height:15px;
+	line-height:15px;
+	white-space: nowrap;
+}
+
+/* 個人情報 */
+h3{color:#191970; text-align: left;font-size:16px;}
+p{text-align: left;}
+#privacy p{text-align: right;}
+
+/* 画像切り替え用 */
+#image_fade a{
+    position:absolute;
+}
+
+.message{
+	/*	webkit */
+	text-shadow: 3px 3px 2px black;
+	/*	trident */
+	filter: dropshadow(color=black,offX=1,offY=1);
+}

@@ -1,0 +1,9 @@
+<Files ~ "\.(pdf|csv)$">
+deny from all
+</Files>
+<Files ~ "admin-list.php">
+deny from all
+</Files>
+<Files ~ "tantou-list.php">
+deny from all
+</Files>

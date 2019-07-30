@@ -1,0 +1,147 @@
+﻿/* 会社案内 */
+
+#company_table {
+	width:540px;
+	text-align: left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+.company_cell1 {
+	color: #333333;
+	width: 90px;
+	background-color: #e6e6fa;
+	border-style: none solid solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	text-align:left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+.company_cell2 {
+	margin: 2px;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	text-align:left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+.company_cell1b {
+	color: #333333;
+	width: 70px;
+	background-color: #e6e6fa;
+	margin: 2px;
+	border-style: none solid none none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	text-align:left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+
+.company_cell4 {
+	color: #333333;
+	background-color: #e6e6fa;
+	margin: 2px;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	text-align:left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+.company_cell7 {
+	color: #333333;
+	background-color: #e6e6fa;
+	border-style: none none solid none;
+	border-width: 1px;
+	border-color: #8e8e8e;
+	text-align:left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#company_table .company_cell8 {
+	
+	font-size: 16px;
+	text-align:left;
+	vertical-align: top;
+	line-height: 15pt;
+	letter-spacing: 0.1em;
+
+}
+
+#company_table .company_cell3 {
+	padding-left:10px;
+	margin: 2px;
+	text-align:left;
+	vertical-align: top;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+	font-family: "ＭＳ ゴシック",sans-serif;
+
+}
+
+#company_table .company_cell9 {
+	text-align: left;
+	vertical-align: bottm;
+	line-height : 15pt;
+	letter-spacing: 0.1em;
+}
+
+#company_table a{
+	font-weight: bold;
+	font-size: 15px;
+	color: #333;
+}
+
+#company_table a:hover {
+	color: #ff8000;
+	text-decoration: underline;
+}
+
+#company_table a:active {
+	color: #ff8000;
+	text-decoration: underline;
+}
+
+.aboutus-tbl{
+	border-collapse: collapse;
+	border: 1px #808080 solid;
+	width: 539px;
+}
+.aboutus-tbl-header{
+	background-color: lavender;
+}
+
+.aboutus-tbl td{
+	border: 1px #808080 solid;
+	padding-left: 5px;
+	line-height: 1.5em;
+}
+
+.aboutus-tbl a{
+	font-weight: bold;
+	color: #4169e1;
+	text-decoration: underline;
+}
+
+.aboutus-tbl a:hover {
+	color: #ff8000;
+}
+
+.aboutus-tbl a:active {
+	color: #ff8000;
+}
+

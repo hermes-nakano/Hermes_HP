@@ -1,0 +1,77 @@
+table{
+border-collapse: collapse;
+border: 1px #bbb solid;
+table-layout: fixed;
+width:1000px;
+word-break: normal;
+word-wrap: break-word;
+line-break: strict;
+font-size:100%;
+}
+
+td{
+height:2em;
+word-wrap: break-word;
+min-width:84px;
+padding: 8px;
+}
+
+th{
+height:1em;
+}
+.trh{
+height:20px;
+}
+
+img{
+width:85px;
+margin: 0;
+padding: 0;
+}
+
+.index{
+width: 4%;
+text-align: center;
+}
+
+.name{
+width:16%;
+}
+
+.age{
+width:50px;
+text-align: center;
+}
+
+.school{
+width:30%;
+}
+
+.license{
+word-wrap: break-word;
+}
+
+.profile{
+font-size:93%;
+line-break: strict;
+width:40%;
+}
+
+.school_nai{
+width:35%;
+}
+
+.license{
+word-wrap: break-word;
+}
+
+.from{
+line-break: strict;
+}
+
+.profile_nai{
+font-size:80%;
+line-break: strict;
+width:35%;
+}
+

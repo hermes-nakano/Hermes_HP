@@ -1,0 +1,5 @@
+AuthUserFile /home/hermessystems/www/management/upload/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Admin Only"
+AuthType Basic
+require valid-user

@@ -1,0 +1,242 @@
+<!--
+/* ページ全体の設定 */
+body{
+  background-color:#FFFFFF;
+  margin:00px 0px 0px 0px;
+}
+
+body, th, td{
+  font-size:12px;
+  color:#555555;
+}
+
+.button_img{
+  cursor : pointer;
+}
+
+.link_str{
+  cursor         : pointer;
+  color          : #0033ff;
+  text-decoration: underline;
+}
+
+.title1{
+  font-size:14px;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+/* テーブル共通 */
+th.space1_block,td.space1_block{
+  height             : 5px;
+}
+th.space2_block,td.space2_block{
+  height             : 20px;
+}
+th.space3_block,td.space3_block{
+  height             : 30px;
+}
+
+/* フレームテーブル */
+table.outer_frame_table{
+
+
+  background-color :#FFFFFF;
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :810px;
+  height           :100%;
+  margin           :0px 0px 0px 0px;
+}
+
+table.outer_frame_table th.left_block,
+table.outer_frame_table td.left_block{
+  background-image :url("../images/side_bar4.gif");
+  background-repeat:repeat-y;
+  padding-top      :0px;
+  padding-right    :0px;
+  padding-bottom   :0px;
+  padding-left     :15px;
+  width            :200px;
+  text-align       :left;
+  vertical-align   :top;
+}
+
+table.outer_frame_table th.center_block,
+table.outer_frame_table td.center_block{
+  padding-top      :10px;
+  padding-right    :10px;
+  padding-bottom   :10px;
+  padding-left     :10px;
+  width            :600px;
+  text-align       :left;
+  vertical-align   :top;
+}
+
+table.outer_frame_table th.right_block,
+table.outer_frame_table td.right_block{
+  background-image :url("../images/back01.jpg");
+  background-repeat:repeat-y;
+  width            :10px;
+}
+
+/* サイドテーブル */
+table.side_table{
+/*
+  border-style     :solid;
+  border-color     :#000000;
+  border-width     :2px;
+*/
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  text-align       :left;
+  vertical-align   :top;
+  width            :165px;
+  margin           :10px 0px 50px 0px;
+}
+
+table.side_table th,
+table.side_table td{
+/*
+  border-style     :solid;
+  border-color     :#000000;
+  border-width     :2px;
+*/
+  padding          :0px 0px 2px 0px;
+}
+
+/* ヘッダテーブル */
+table.header_table{
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :510px;
+  margin           :0px 0px 0px 0px;
+}
+
+table.header_table th.header_banner1_block,
+table.header_table td.header_banner1_block{
+  background-image   :url("../images/header-bar01.gif");
+  background-position:right top;
+  background-repeat  :no-repeat;
+  height             : 80px;
+}
+
+table.header_table th.bar_block,
+table.header_table td.bar_block{
+  background-image   :url("../images/bar01.gif");
+  background-position:right;
+  background-repeat  :repeat-y;
+  height             : 7px;
+}
+
+th.space1_block,td.space1_block{
+  height             : 5px;
+}
+
+/* メインテーブル */
+table.main_table{
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :510px;
+  margin           :0px 0px 0px 0px;
+}
+
+table.main_table th,
+table.main_table td{
+  text-align       :left;
+  vertical-align   :top;
+  padding-top      :5px;
+  padding-right    :3px;
+  padding-bottom   :3px;
+  padding-left     :3px;
+}
+
+table.main_table th.bar_block,
+table.main_table td.bar_block{
+  background-image   :url("../images/bar11.gif");
+  background-position:left center;
+  background-repeat  :repeat-x;
+  height             : 7px;
+}
+
+table.main_table th.title1_block,
+table.main_table td.title1_block{
+  background-color :#ffffff;
+  
+  
+  background-image   :url("../images/title_bar.gif");
+  background-position:left center;
+  background-repeat  :no-repeat;
+  
+  font-size:14px;
+  font-weight:bold;
+  color:#ffffff;
+  
+  text-align       :left;
+  vertical-align   :middle;
+  
+  padding-top    :0px;
+  padding-right  :0px;
+  padding-bottom :0px;
+  padding-left   :10px;
+
+  height             : 30px;
+  
+}
+
+table.main_table th.image1_block,
+table.main_table td.image1_block{
+  text-align       :center;
+  vertical-align   :top;
+  padding-top      :0px;
+  padding-right    :0px;
+  padding-bottom   :0px;
+  padding-left     :0px;
+}
+
+table.main_table th.layout1_block,
+table.main_table td.layout1_block{
+  text-align       :left;
+  vertical-align   :top;
+  padding-top      :0px;
+  padding-right    :0px;
+  padding-bottom   :0px;
+  padding-left     :0px;
+}
+
+/* フッタテーブル */
+table.footer_table{
+  border-width     :0px;
+  border-spacing   :0px;
+  border-collapse  :collapse;
+  width            :510px;
+  height           :100%;
+  margin           :0px 0px 0px 0px;
+}
+
+table.footer_table th,
+table.footer_table td{
+  text-align       :center;
+  vertical-align   :bottom;
+}
+
+
+div.noscript_alert{
+  background-color :#dfffff;
+  width            :510px;
+  height           :80px;
+  text-align       :left;
+  vertical-align   :bottom;
+  padding-top      :25px;
+  padding-right    :0px;
+  padding-bottom   :3px;
+  padding-left     :60px;
+  margin-top       :10px;
+  margin-bottom    :30px;
+}
+
+-->
